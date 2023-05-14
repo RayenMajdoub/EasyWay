@@ -1,0 +1,58 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+        <string-array name="language_entries">
+            <item>English(US)</item>
+            <item>Français</item>
+            <item>Arabic</item>
+        </string-array>
+
+        <string-array name="language_values">
+            <item>english</item>
+            <item>francais</item>
+            <item>arabic</item>
+        </string-array>
+    <string-array name="distance_units_array">
+            <item>Mile</item>
+            <item>Km</item>
+        </string-array>
+
+    <string-array name="map_skin_entries">
+            <item>Dark</item>
+            <item>Light</item>
+            <item>Multicolor</item>
+        </string-array>
+    <string-array name="map_view_entries">
+            <item>3D</item>
+            <item>2D</item>
+        </string-array>
+    <string-array name="settings_list_preference_titles">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+
+    </string-array>
+    <string-array name="settings_list_preference_values">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+
+    </string-array>
+
+</resources>

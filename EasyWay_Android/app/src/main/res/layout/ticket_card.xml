@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scaleY="0.8"
+    android:scaleX="0.8"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:layout_marginStart="30dp"
+    app:cardElevation="30dp"
+    app:cardCornerRadius="50px"
+    app:cardBackgroundColor="#00FFFFFF"
+    app:strokeWidth="0dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/horizontal_ticket"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:backgroundTint="@color/colorSecondaryLight">
+
+
+        <TextView
+            android:id="@+id/depart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="11:00"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/arrival_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="11:00"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/depart_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/arrival_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Airport"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="12km"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/travel_time"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Travel Time 35 min"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+
+
+    </FrameLayout>
+
+
+</com.google.android.material.card.MaterialCardView >

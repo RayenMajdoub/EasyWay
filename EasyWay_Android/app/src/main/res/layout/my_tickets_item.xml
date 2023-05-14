@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="2dp"
+    android:elevation="2dp"
+    app:strokeColor="#DDD7D7"
+    android:layout_marginBottom="20dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/depart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="11:00"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/arrival_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="11:00"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/depart_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Home"
+            android:textColor="@color/AccentGreenDark"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/arrival_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Airport"
+            android:textColor="@color/AccentPinkDark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/full_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Travel Time 35 min"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"  />
+        <TextView
+            android:id="@+id/seats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Travel Time 35 min"
+            android:textColor="@color/black"
+            android:textSize="14sp"  />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Seats"
+            android:textColor="@color/black"
+            android:textSize="14sp"  />
+        <TextView
+            android:id="@+id/tot_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="81dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Travel Time 35 min"
+            android:textColor="@color/black"
+            android:textSize="14sp"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="81dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="14sp"  />
+
+
+
+
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>

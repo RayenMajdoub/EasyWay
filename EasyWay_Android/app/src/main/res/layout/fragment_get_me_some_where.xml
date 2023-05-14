@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/bottom_white_back_ground_blue"
+    android:backgroundTint="@color/AccentGreenDark"
+    tools:context=".View.GetMeSomeWhere">
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center|top"
+        app:srcCompat="@drawable/ic_remove"
+        />
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_back_simple_arrow"
+        android:clickable="true"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+<FrameLayout
+    android:layout_marginTop="40dp"
+
+    android:layout_marginStart="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:fontFamily="@font/kanit_regular"
+        android:text="Where would you like"
+        android:textAlignment="textStart"
+        android:textSize="34sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/kanit_regular"
+        android:text=" to go"
+        android:textAlignment="textStart"
+        android:textSize="38sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/kanit_regular"
+        android:text="today?"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+</FrameLayout>
+    
+    <FrameLayout
+        android:layout_marginTop="180dp"
+      android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@drawable/rectangle_raduis_white"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/icon_points"
+            app:tint="@color/black" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/start_point"
+            android:layout_width="220dp"
+            android:layout_marginStart="100dp"
+            android:layout_height="40dp"
+            android:textSize="12sp"
+            android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+            android:fontFamily="@font/kanit_regular" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="120dp"
+            android:id="@+id/end_point"
+            android:layout_width="220dp"
+            android:layout_marginStart="100dp"
+            android:layout_height="40dp"
+            android:textSize="12sp"
+
+            android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+            android:fontFamily="@font/kanit_regular" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/ic_switch"
+            android:background="@drawable/cercular_white_background"
+            android:backgroundTint="#000D0D0D"
+            app:tint="@color/white" />
+
+
+
+    </FrameLayout>
+<TextView
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="390dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/ic_calendar"
+    android:text=" Today"
+    android:textColor="@color/white"
+    android:fontFamily="@font/kanit_regular"
+    android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/todays_date"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="390dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:fontFamily="@font/kanit_regular"
+            android:textSize="16sp"/>
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+     />
+    </FrameLayout>
+</FrameLayout>

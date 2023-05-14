@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="@string/Settings">
+    <PreferenceCategory
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false"
+        app:title="">
+
+
+        <SwitchPreferenceCompat
+            app:switchTextOff="Light"
+            app:switchTextOn="Dark"
+            app:icon="@drawable/ic_map"
+            app:key="map_header"
+            app:title="@string/Map_settings" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false"
+        app:iconSpaceReserved="false"
+        app:title="">
+        <SwitchPreferenceCompat
+            app:switchTextOff="On"
+            app:switchTextOn="Off"
+            app:icon="@drawable/ic_notif"
+            app:key="notifications_header"
+            app:title="@string/Notifications" />
+
+        <ListPreference
+            android:entries="@array/settings_list_preference_titles"
+            android:entryValues="@array/settings_list_preference_values"
+            app:icon="@drawable/ic_reminder"
+            app:key="reminders_header"
+            android:defaultValue="1"
+            android:summary="Choose the timing"
+            app:title="@string/Reminders" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

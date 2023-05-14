@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            motion:layout_constraintVertical_bias="0.315"
+            android:layout_height="764dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="11dp"
+            motion:layout_constraintBottom_toTopOf="@+id/viewAnimator"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="698dp"
+            android:id="@+id/gifImageView" />
+        <Constraint
+            android:layout_height="588dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="590dp"
+            motion:layout_constraintTop_toBottomOf="@+id/gifImageView"
+            motion:layout_constraintVertical_bias="0.332"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="256dp"
+            android:layout_marginStart="256dp"
+            android:id="@+id/imageView" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            motion:layout_constraintVertical_bias="0.315"
+            android:layout_height="716dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="312dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="11dp"
+            motion:layout_constraintBottom_toTopOf="@+id/viewAnimator"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="656dp"
+            android:id="@+id/gifImageView" />
+    </ConstraintSet>
+</MotionScene>

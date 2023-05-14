@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Tickets_list">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/green_wicked">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/LoadingSpinner"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_anim"
+            />
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:src="@drawable/ic_back_fullarrow"
+            app:tint="#4A4A4A" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="0dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/button_all"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+                    android:backgroundTint="@color/button_background_colors"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="16dp"
+                        android:scaleX="1.2"
+                        android:scaleY="1.2"
+                        android:src="@drawable/ic_all"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/button_bus"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+                    android:backgroundTint="@color/button_background_colors"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_bus"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/button_taxi"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+                    android:backgroundTint="@color/button_background_colors"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_taxi"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/button_train"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+                    android:backgroundTint="@color/button_background_colors"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_train"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/button_bike"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/rectangle_raduis_white_smaller_raduis"
+                    android:backgroundTint="@color/button_background_colors"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/ic_bike"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="200dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

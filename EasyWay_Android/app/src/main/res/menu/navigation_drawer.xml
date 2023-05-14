@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_item"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/General"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/Settings"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+           <item
+        android:id="@+id/notifications_menu"
+        android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/Saved_places"
+                android:icon="@drawable/ic_saved_locations"
+                android:title="@string/Favorites"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/tickets"
+                android:icon="@drawable/ic_ticket"
+                android:title="@string/Tickets"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+
+
+        </menu>
+    </item>
+    <item
+        android:title=""
+        android:id="@+id/Account"
+      >
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/About"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/Logout"
+                android:checkable="true"
+                app:showAsAction="ifRoom"/>
+
+
+        </menu>
+    </item>
+
+
+</menu>

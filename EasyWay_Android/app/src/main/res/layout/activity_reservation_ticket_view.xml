@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_wicked"
+    tools:context=".View.Reservation_Ticket_View">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/frameLayout"
+        android:layout_width="330dp"
+        android:layout_height="609dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_btn"
+
+        app:strokeWidth="0dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vertical_ticket">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/LoadingSpinner4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loading_anim" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="13.6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14.5dp"
+                android:background="@drawable/bottom_white_back_ground_blue"
+                android:backgroundTint="@color/AccentPinkDark">
+
+                <TextView
+                    android:id="@+id/id_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/kanit_regular"
+                    android:text="448-92-XXXX"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/depart_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="11:00"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/arrival_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="11:00"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/start_point"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Airport"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/end_point"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Home"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Date:"
+                android:textColor="#818080"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Depart_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="2 Dec 2022"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Seat Numbers:"
+                android:textColor="#818080"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/seat_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="448-92-XXXX"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Vehicule name:"
+                android:textColor="#818080"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vehicule_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="2 Dec 2022"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Vehicule type:"
+                android:textColor="#818080"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vehicule_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="448-92-XXXX"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="340dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Total price:"
+                android:textColor="#818080"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="360dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="448-92-XXXX"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/qr_viewer"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="440dp"
+                android:src="@drawable/qr" />
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity=""
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="530dp"
+                android:background="@drawable/ic_download"
+                app:backgroundTint="@color/black" />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/LoadingSpinner"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="510dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/scanning_a_ticket" />
+        </FrameLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <FrameLayout
+        android:id="@+id/home_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/ic_home"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

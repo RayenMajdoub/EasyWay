@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MyTickets"
+    android:background="#F2F2F2">
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_back_simple_arrow"
+            app:tint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="My tickets"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/touche_bold"
+            android:textColor="@color/black"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tickets_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

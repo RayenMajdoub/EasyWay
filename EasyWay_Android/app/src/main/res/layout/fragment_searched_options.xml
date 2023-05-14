@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/bottom_white_back_ground_blue"
+    android:backgroundTint="@color/white"
+    tools:context=".View.fragment_searched_options">
+
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_remove"
+        app:tint="#6C6B6B" />
+
+    <TextView
+        android:id="@+id/titre_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Title"
+        android:textSize="24sp"
+        app:tint="#6C6B6B" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <FrameLayout
+            android:id="@+id/remove_btn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="0">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/trash_searched"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:text="Remove"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/save_place_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:clickable="true"
+            android:focusable="true">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/favorite_location_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:text="Save a place"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="0">
+
+            <FrameLayout
+                android:id="@+id/save_work"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_work"
+                android:backgroundTint="@color/colorSecondary"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:textAlignment="center"
+                android:text="@string/save_as_work_address"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/save_home"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_home"
+                android:backgroundTint="@color/AccentGreenDark"
+                android:scaleX="0.8"
+                android:scaleY="0.8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:text="@string/save_as_home_adress"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/remove_all"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="1">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/trash_searched"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:text="Delete all"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/cancel_searched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="410dp"
+        android:clickable="true"
+        android:fontFamily="@font/touche_bold"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+    />
+
+</FrameLayout>
+
