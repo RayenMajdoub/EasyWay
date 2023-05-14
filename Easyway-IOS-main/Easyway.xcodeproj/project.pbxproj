@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D9004D95C12904477B17FBD /* Pods_Easyway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AD1EBA32DE5DFB825686C3 /* Pods_Easyway.framework */; };
+		E100293929FA017C009DB48C /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E100293829FA017C009DB48C /* PaymentModel.swift */; };
+		E10430F129ECAEC700E60A04 /* TicketDetailMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430F029ECAEC700E60A04 /* TicketDetailMainView.swift */; };
+		E10430F429ECAF0700E60A04 /* TicketDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430F329ECAF0700E60A04 /* TicketDetailTopView.swift */; };
+		E10430F629ECAF2100E60A04 /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430F529ECAF2100E60A04 /* TicketDetailView.swift */; };
+		E10430F829ECAF5100E60A04 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430F729ECAF5100E60A04 /* BlockView.swift */; };
+		E10430FA29ECAF6C00E60A04 /* LREdgeCutShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430F929ECAF6C00E60A04 /* LREdgeCutShapeView.swift */; };
+		E10430FC29ECAF8A00E60A04 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430FB29ECAF8A00E60A04 /* LineShape.swift */; };
+		E10430FE29ECAFA100E60A04 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430FD29ECAFA100E60A04 /* RoundedCorner.swift */; };
+		E104310029ECBA8F00E60A04 /* BookingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10430FF29ECBA8F00E60A04 /* BookingPage.swift */; };
+		E104310329ECCAA200E60A04 /* SeatShaperLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104310229ECCAA200E60A04 /* SeatShaperLayer.swift */; };
+		E13AF49C29C21B60008DB2F0 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF49B29C21B60008DB2F0 /* GetStarted.swift */; };
+		E13AF49F29C21BB7008DB2F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF49E29C21BB7008DB2F0 /* Constants.swift */; };
+		E13AF4A429C21BE7008DB2F0 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13AF4A129C21BE7008DB2F0 /* Raleway-SemiBold.ttf */; };
+		E13AF4A529C21BE7008DB2F0 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13AF4A229C21BE7008DB2F0 /* Raleway-Bold.ttf */; };
+		E13AF4A629C21BE7008DB2F0 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E13AF4A329C21BE7008DB2F0 /* Raleway-Regular.ttf */; };
+		E13AF4A829C21CA0008DB2F0 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF4A729C21CA0008DB2F0 /* LoginPage.swift */; };
+		E13AF4AA29C21F86008DB2F0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF4A929C21F86008DB2F0 /* LoginModel.swift */; };
+		E13AF4AC29C2480B008DB2F0 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF4AB29C2480B008DB2F0 /* RegisterPage.swift */; };
+		E13AF4AE29C248D0008DB2F0 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF4AD29C248D0008DB2F0 /* RegisterModel.swift */; };
+		E13AF4B029C2509A008DB2F0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13AF4AF29C2509A008DB2F0 /* HomePage.swift */; };
+		E13F3BB429C1EFF90091D1A9 /* EasywayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F3BB329C1EFF90091D1A9 /* EasywayApp.swift */; };
+		E13F3BB629C1EFF90091D1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F3BB529C1EFF90091D1A9 /* ContentView.swift */; };
+		E13F3BB829C1EFFA0091D1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13F3BB729C1EFFA0091D1A9 /* Assets.xcassets */; };
+		E13F3BBB29C1EFFA0091D1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13F3BBA29C1EFFA0091D1A9 /* Preview Assets.xcassets */; };
+		E13F3BBD29C1EFFA0091D1A9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13F3BBC29C1EFFA0091D1A9 /* Persistence.swift */; };
+		E13F3BC029C1EFFA0091D1A9 /* Easyway.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E13F3BBE29C1EFFA0091D1A9 /* Easyway.xcdatamodeld */; };
+		E140955429F874AF00C61D3D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140955329F874AF00C61D3D /* LocationManager.swift */; };
+		E140955729F8AEC900C61D3D /* LocationSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140955629F8AEC900C61D3D /* LocationSearchModel.swift */; };
+		E16590ED29C322B2005F981D /* ForgetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16590EC29C322B2005F981D /* ForgetPage.swift */; };
+		E16590EF29C322CA005F981D /* CodeVerifPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16590EE29C322CA005F981D /* CodeVerifPage.swift */; };
+		E16590F129C322DB005F981D /* NewPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16590F029C322DB005F981D /* NewPasswordPage.swift */; };
+		E16590F329C323F1005F981D /* ForgetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16590F229C323F1005F981D /* ForgetPasswordModel.swift */; };
+		E16590F929C33580005F981D /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16590F829C33580005F981D /* Drawer.swift */; };
+		E16FBF0529DE668500347EC0 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FBF0429DE668500347EC0 /* ProfilePage.swift */; };
+		E17183DB29D38E5800FC625E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17183DA29D38E5800FC625E /* Shared.swift */; };
+		E17183DD29D399EF00FC625E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17183DC29D399EF00FC625E /* LottieView.swift */; };
+		E17183E029D3A4A400FC625E /* searching_places_anim.json in Resources */ = {isa = PBXBuildFile; fileRef = E17183DF29D3A4A400FC625E /* searching_places_anim.json */; };
+		E17183E229D3A4AF00FC625E /* map_location.json in Resources */ = {isa = PBXBuildFile; fileRef = E17183E129D3A4AF00FC625E /* map_location.json */; };
+		E17183E429D3A4B500FC625E /* profile_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = E17183E329D3A4B500FC625E /* profile_animation.json */; };
+		E17183E629D3A68600FC625E /* LottieNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17183E529D3A68600FC625E /* LottieNames.swift */; };
+		E17183E829D3A81F00FC625E /* home_anim.json in Resources */ = {isa = PBXBuildFile; fileRef = E17183E729D3A81F00FC625E /* home_anim.json */; };
+		E1B896B429CE544600E07462 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B896B329CE544600E07462 /* UserController.swift */; };
+		E1BCAD2729E7BBAC00865A60 /* EditProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCAD2629E7BBAC00865A60 /* EditProfilePage.swift */; };
+		E1BCAD2929E7D21700865A60 /* EditProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCAD2829E7D21700865A60 /* EditProfileModel.swift */; };
+		E1C0A85229CC767D00258D82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C0A85129CC767D00258D82 /* User.swift */; };
+		E1CBA9DC2A05D20F00E3527E /* DetailsReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBA9DB2A05D20F00E3527E /* DetailsReservation.swift */; };
+		E1CBA9DE2A05D49500E3527E /* ReservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBA9DD2A05D49500E3527E /* ReservationModel.swift */; };
+		E1CBA9E02A06064E00E3527E /* MyTicketsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBA9DF2A06064E00E3527E /* MyTicketsPage.swift */; };
+		E1D345842A080BB000C0FF89 /* ScannerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D345832A080BB000C0FF89 /* ScannerPage.swift */; };
+		E1D345872A08102C00C0FF89 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = E1D345862A08102C00C0FF89 /* CodeScanner */; };
+		E1EFBD9629D259B000576B6C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBD9529D259B000576B6C /* Vehicle.swift */; };
+		E1EFBD9829D25A2400576B6C /* Voyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBD9729D25A2400576B6C /* Voyage.swift */; };
+		E1EFBD9A29D25B7400576B6C /* SeatFormation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBD9929D25B7400576B6C /* SeatFormation.swift */; };
+		E1EFBD9E29D25E2800576B6C /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBD9D29D25E2800576B6C /* Reservation.swift */; };
+		E1EFBDA029D2601C00576B6C /* VehicleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBD9F29D2601C00576B6C /* VehicleController.swift */; };
+		E1EFBDA229D2602A00576B6C /* VoyageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBDA129D2602A00576B6C /* VoyageController.swift */; };
+		E1EFBDA429D2604600576B6C /* SeatFormationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBDA329D2604600576B6C /* SeatFormationController.swift */; };
+		E1EFBDA629D268D700576B6C /* VoyageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBDA529D268D700576B6C /* VoyageModel.swift */; };
+		E1EFBDAA29D26AA600576B6C /* ReservationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFBDA929D26AA600576B6C /* ReservationController.swift */; };
+		E1F2C11329D634BA00CBC5B2 /* TicketListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F2C11229D634BA00CBC5B2 /* TicketListPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F8559B03EF8D54731033133 /* Pods-Easyway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easyway.debug.xcconfig"; path = "Target Support Files/Pods-Easyway/Pods-Easyway.debug.xcconfig"; sourceTree = "<group>"; };
+		59AD1EBA32DE5DFB825686C3 /* Pods_Easyway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easyway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D6A56613005C9765B09B0C /* Pods-Easyway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easyway.release.xcconfig"; path = "Target Support Files/Pods-Easyway/Pods-Easyway.release.xcconfig"; sourceTree = "<group>"; };
+		E100293829FA017C009DB48C /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		E10430F029ECAEC700E60A04 /* TicketDetailMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailMainView.swift; sourceTree = "<group>"; };
+		E10430F329ECAF0700E60A04 /* TicketDetailTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailTopView.swift; sourceTree = "<group>"; };
+		E10430F529ECAF2100E60A04 /* TicketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
+		E10430F729ECAF5100E60A04 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		E10430F929ECAF6C00E60A04 /* LREdgeCutShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LREdgeCutShapeView.swift; sourceTree = "<group>"; };
+		E10430FB29ECAF8A00E60A04 /* LineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		E10430FD29ECAFA100E60A04 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		E10430FF29ECBA8F00E60A04 /* BookingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingPage.swift; sourceTree = "<group>"; };
+		E104310229ECCAA200E60A04 /* SeatShaperLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatShaperLayer.swift; sourceTree = "<group>"; };
+		E13AF49B29C21B60008DB2F0 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
+		E13AF49E29C21BB7008DB2F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E13AF4A129C21BE7008DB2F0 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		E13AF4A229C21BE7008DB2F0 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		E13AF4A329C21BE7008DB2F0 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		E13AF4A729C21CA0008DB2F0 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		E13AF4A929C21F86008DB2F0 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E13AF4AB29C2480B008DB2F0 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		E13AF4AD29C248D0008DB2F0 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		E13AF4AF29C2509A008DB2F0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		E13F3BB029C1EFF90091D1A9 /* Easyway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easyway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13F3BB329C1EFF90091D1A9 /* EasywayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasywayApp.swift; sourceTree = "<group>"; };
+		E13F3BB529C1EFF90091D1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E13F3BB729C1EFFA0091D1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E13F3BBA29C1EFFA0091D1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E13F3BBC29C1EFFA0091D1A9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E13F3BBF29C1EFFA0091D1A9 /* Easyway.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easyway.xcdatamodel; sourceTree = "<group>"; };
+		E13F3BD929C1FCE20091D1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E140955329F874AF00C61D3D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E140955629F8AEC900C61D3D /* LocationSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchModel.swift; sourceTree = "<group>"; };
+		E16590EC29C322B2005F981D /* ForgetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPage.swift; sourceTree = "<group>"; };
+		E16590EE29C322CA005F981D /* CodeVerifPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifPage.swift; sourceTree = "<group>"; };
+		E16590F029C322DB005F981D /* NewPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordPage.swift; sourceTree = "<group>"; };
+		E16590F229C323F1005F981D /* ForgetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordModel.swift; sourceTree = "<group>"; };
+		E16590F829C33580005F981D /* Drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		E16FBF0429DE668500347EC0 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		E17183DA29D38E5800FC625E /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		E17183DC29D399EF00FC625E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E17183DF29D3A4A400FC625E /* searching_places_anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = searching_places_anim.json; sourceTree = "<group>"; };
+		E17183E129D3A4AF00FC625E /* map_location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map_location.json; sourceTree = "<group>"; };
+		E17183E329D3A4B500FC625E /* profile_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile_animation.json; sourceTree = "<group>"; };
+		E17183E529D3A68600FC625E /* LottieNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieNames.swift; sourceTree = "<group>"; };
+		E17183E729D3A81F00FC625E /* home_anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_anim.json; sourceTree = "<group>"; };
+		E1B896B329CE544600E07462 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		E1BCAD2629E7BBAC00865A60 /* EditProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilePage.swift; sourceTree = "<group>"; };
+		E1BCAD2829E7D21700865A60 /* EditProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileModel.swift; sourceTree = "<group>"; };
+		E1C0A85129CC767D00258D82 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E1CBA9DB2A05D20F00E3527E /* DetailsReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsReservation.swift; sourceTree = "<group>"; };
+		E1CBA9DD2A05D49500E3527E /* ReservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationModel.swift; sourceTree = "<group>"; };
+		E1CBA9DF2A06064E00E3527E /* MyTicketsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsPage.swift; sourceTree = "<group>"; };
+		E1D345832A080BB000C0FF89 /* ScannerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerPage.swift; sourceTree = "<group>"; };
+		E1EFBD9529D259B000576B6C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		E1EFBD9729D25A2400576B6C /* Voyage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voyage.swift; sourceTree = "<group>"; };
+		E1EFBD9929D25B7400576B6C /* SeatFormation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatFormation.swift; sourceTree = "<group>"; };
+		E1EFBD9D29D25E2800576B6C /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		E1EFBD9F29D2601C00576B6C /* VehicleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleController.swift; sourceTree = "<group>"; };
+		E1EFBDA129D2602A00576B6C /* VoyageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageController.swift; sourceTree = "<group>"; };
+		E1EFBDA329D2604600576B6C /* SeatFormationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatFormationController.swift; sourceTree = "<group>"; };
+		E1EFBDA529D268D700576B6C /* VoyageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageModel.swift; sourceTree = "<group>"; };
+		E1EFBDA929D26AA600576B6C /* ReservationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationController.swift; sourceTree = "<group>"; };
+		E1F2C11229D634BA00CBC5B2 /* TicketListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13F3BAD29C1EFF90091D1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D345872A08102C00C0FF89 /* CodeScanner in Frameworks */,
+				8D9004D95C12904477B17FBD /* Pods_Easyway.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422901A8AB693D358B694222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59AD1EBA32DE5DFB825686C3 /* Pods_Easyway.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4955AA0587E9B6B79207C8D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8559B03EF8D54731033133 /* Pods-Easyway.debug.xcconfig */,
+				94D6A56613005C9765B09B0C /* Pods-Easyway.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E10430EF29ECAEAC00E60A04 /* TicketDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E10430F029ECAEC700E60A04 /* TicketDetailMainView.swift */,
+				E10430F329ECAF0700E60A04 /* TicketDetailTopView.swift */,
+				E10430F529ECAF2100E60A04 /* TicketDetailView.swift */,
+				E10430F729ECAF5100E60A04 /* BlockView.swift */,
+				E10430F929ECAF6C00E60A04 /* LREdgeCutShapeView.swift */,
+				E10430FB29ECAF8A00E60A04 /* LineShape.swift */,
+				E10430FD29ECAFA100E60A04 /* RoundedCorner.swift */,
+			);
+			path = TicketDetails;
+			sourceTree = "<group>";
+		};
+		E104310129ECCA6C00E60A04 /* Seats */ = {
+			isa = PBXGroup;
+			children = (
+				E104310229ECCAA200E60A04 /* SeatShaperLayer.swift */,
+			);
+			path = Seats;
+			sourceTree = "<group>";
+		};
+		E13AF49A29C21B50008DB2F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E13AF49D29C21B8C008DB2F0 /* Shared */,
+				E13AF49B29C21B60008DB2F0 /* GetStarted.swift */,
+				E13AF4A729C21CA0008DB2F0 /* LoginPage.swift */,
+				E13AF4AB29C2480B008DB2F0 /* RegisterPage.swift */,
+				E13AF4AF29C2509A008DB2F0 /* HomePage.swift */,
+				E16590EC29C322B2005F981D /* ForgetPage.swift */,
+				E16590EE29C322CA005F981D /* CodeVerifPage.swift */,
+				E16590F029C322DB005F981D /* NewPasswordPage.swift */,
+				E16590F829C33580005F981D /* Drawer.swift */,
+				E1F2C11229D634BA00CBC5B2 /* TicketListPage.swift */,
+				E16FBF0429DE668500347EC0 /* ProfilePage.swift */,
+				E1BCAD2629E7BBAC00865A60 /* EditProfilePage.swift */,
+				E10430FF29ECBA8F00E60A04 /* BookingPage.swift */,
+				E1CBA9DB2A05D20F00E3527E /* DetailsReservation.swift */,
+				E1CBA9DF2A06064E00E3527E /* MyTicketsPage.swift */,
+				E1D345832A080BB000C0FF89 /* ScannerPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E13AF49D29C21B8C008DB2F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E104310129ECCA6C00E60A04 /* Seats */,
+				E10430EF29ECAEAC00E60A04 /* TicketDetails */,
+				E17183DE29D39E3C00FC625E /* LottieFiles */,
+				E13AF4A029C21BD7008DB2F0 /* Fonts */,
+				E13AF49E29C21BB7008DB2F0 /* Constants.swift */,
+				E17183DC29D399EF00FC625E /* LottieView.swift */,
+				E140955329F874AF00C61D3D /* LocationManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E13AF4A029C21BD7008DB2F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E13AF4A229C21BE7008DB2F0 /* Raleway-Bold.ttf */,
+				E13AF4A329C21BE7008DB2F0 /* Raleway-Regular.ttf */,
+				E13AF4A129C21BE7008DB2F0 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E13F3BA729C1EFF90091D1A9 = {
+			isa = PBXGroup;
+			children = (
+				E13F3BB229C1EFF90091D1A9 /* Easyway */,
+				E13F3BB129C1EFF90091D1A9 /* Products */,
+				4955AA0587E9B6B79207C8D1 /* Pods */,
+				422901A8AB693D358B694222 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E13F3BB129C1EFF90091D1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13F3BB029C1EFF90091D1A9 /* Easyway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13F3BB229C1EFF90091D1A9 /* Easyway */ = {
+			isa = PBXGroup;
+			children = (
+				E13F3BD929C1FCE20091D1A9 /* Info.plist */,
+				E13F3BCA29C1F6F70091D1A9 /* Models */,
+				E13F3BC929C1F6ED0091D1A9 /* Controller */,
+				E13F3BC729C1F6BD0091D1A9 /* Core */,
+				E13F3BB329C1EFF90091D1A9 /* EasywayApp.swift */,
+				E13F3BB529C1EFF90091D1A9 /* ContentView.swift */,
+				E13F3BB729C1EFFA0091D1A9 /* Assets.xcassets */,
+				E13F3BBC29C1EFFA0091D1A9 /* Persistence.swift */,
+				E13F3BBE29C1EFFA0091D1A9 /* Easyway.xcdatamodeld */,
+				E13F3BB929C1EFFA0091D1A9 /* Preview Content */,
+			);
+			path = Easyway;
+			sourceTree = "<group>";
+		};
+		E13F3BB929C1EFFA0091D1A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E13F3BBA29C1EFFA0091D1A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E13F3BC729C1F6BD0091D1A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E13AF49A29C21B50008DB2F0 /* View */,
+				E13F3BCB29C1F7950091D1A9 /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E13F3BC929C1F6ED0091D1A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1B896B329CE544600E07462 /* UserController.swift */,
+				E1EFBD9F29D2601C00576B6C /* VehicleController.swift */,
+				E1EFBDA129D2602A00576B6C /* VoyageController.swift */,
+				E1EFBDA329D2604600576B6C /* SeatFormationController.swift */,
+				E1EFBDA929D26AA600576B6C /* ReservationController.swift */,
+				E17183DA29D38E5800FC625E /* Shared.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E13F3BCA29C1F6F70091D1A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1C0A85129CC767D00258D82 /* User.swift */,
+				E1EFBD9529D259B000576B6C /* Vehicle.swift */,
+				E1EFBD9729D25A2400576B6C /* Voyage.swift */,
+				E1EFBD9929D25B7400576B6C /* SeatFormation.swift */,
+				E1EFBD9D29D25E2800576B6C /* Reservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E13F3BCB29C1F7950091D1A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E13AF4A929C21F86008DB2F0 /* LoginModel.swift */,
+				E13AF4AD29C248D0008DB2F0 /* RegisterModel.swift */,
+				E16590F229C323F1005F981D /* ForgetPasswordModel.swift */,
+				E1EFBDA529D268D700576B6C /* VoyageModel.swift */,
+				E1BCAD2829E7D21700865A60 /* EditProfileModel.swift */,
+				E140955629F8AEC900C61D3D /* LocationSearchModel.swift */,
+				E100293829FA017C009DB48C /* PaymentModel.swift */,
+				E1CBA9DD2A05D49500E3527E /* ReservationModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E17183DE29D39E3C00FC625E /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E17183E729D3A81F00FC625E /* home_anim.json */,
+				E17183E129D3A4AF00FC625E /* map_location.json */,
+				E17183E329D3A4B500FC625E /* profile_animation.json */,
+				E17183DF29D3A4A400FC625E /* searching_places_anim.json */,
+				E17183E529D3A68600FC625E /* LottieNames.swift */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E13F3BAF29C1EFF90091D1A9 /* Easyway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13F3BC329C1EFFA0091D1A9 /* Build configuration list for PBXNativeTarget "Easyway" */;
+			buildPhases = (
+				53E1336FBB7BE421BA461BB8 /* [CP] Check Pods Manifest.lock */,
+				E13F3BAC29C1EFF90091D1A9 /* Sources */,
+				E13F3BAD29C1EFF90091D1A9 /* Frameworks */,
+				E13F3BAE29C1EFF90091D1A9 /* Resources */,
+				C979D9EF79B75D5BC9368C50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easyway;
+			packageProductDependencies = (
+				E1D345862A08102C00C0FF89 /* CodeScanner */,
+			);
+			productName = Easyway;
+			productReference = E13F3BB029C1EFF90091D1A9 /* Easyway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13F3BA829C1EFF90091D1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E13F3BAF29C1EFF90091D1A9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E13F3BAB29C1EFF90091D1A9 /* Build configuration list for PBXProject "Easyway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E13F3BA729C1EFF90091D1A9;
+			packageReferences = (
+				E1D345852A08102C00C0FF89 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = E13F3BB129C1EFF90091D1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E13F3BAF29C1EFF90091D1A9 /* Easyway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E13F3BAE29C1EFF90091D1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13F3BBB29C1EFFA0091D1A9 /* Preview Assets.xcassets in Resources */,
+				E17183E229D3A4AF00FC625E /* map_location.json in Resources */,
+				E17183E029D3A4A400FC625E /* searching_places_anim.json in Resources */,
+				E13AF4A529C21BE7008DB2F0 /* Raleway-Bold.ttf in Resources */,
+				E13AF4A629C21BE7008DB2F0 /* Raleway-Regular.ttf in Resources */,
+				E13F3BB829C1EFFA0091D1A9 /* Assets.xcassets in Resources */,
+				E17183E429D3A4B500FC625E /* profile_animation.json in Resources */,
+				E17183E829D3A81F00FC625E /* home_anim.json in Resources */,
+				E13AF4A429C21BE7008DB2F0 /* Raleway-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53E1336FBB7BE421BA461BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easyway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C979D9EF79B75D5BC9368C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Easyway/Pods-Easyway-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Easyway/Pods-Easyway-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Easyway/Pods-Easyway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E13F3BAC29C1EFF90091D1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EFBDA229D2602A00576B6C /* VoyageController.swift in Sources */,
+				E1EFBDAA29D26AA600576B6C /* ReservationController.swift in Sources */,
+				E1B896B429CE544600E07462 /* UserController.swift in Sources */,
+				E13F3BBD29C1EFFA0091D1A9 /* Persistence.swift in Sources */,
+				E1CBA9DE2A05D49500E3527E /* ReservationModel.swift in Sources */,
+				E13AF4B029C2509A008DB2F0 /* HomePage.swift in Sources */,
+				E1BCAD2929E7D21700865A60 /* EditProfileModel.swift in Sources */,
+				E10430FE29ECAFA100E60A04 /* RoundedCorner.swift in Sources */,
+				E1EFBD9629D259B000576B6C /* Vehicle.swift in Sources */,
+				E13F3BB629C1EFF90091D1A9 /* ContentView.swift in Sources */,
+				E104310329ECCAA200E60A04 /* SeatShaperLayer.swift in Sources */,
+				E10430F129ECAEC700E60A04 /* TicketDetailMainView.swift in Sources */,
+				E13F3BB429C1EFF90091D1A9 /* EasywayApp.swift in Sources */,
+				E1CBA9E02A06064E00E3527E /* MyTicketsPage.swift in Sources */,
+				E13F3BC029C1EFFA0091D1A9 /* Easyway.xcdatamodeld in Sources */,
+				E1EFBDA629D268D700576B6C /* VoyageModel.swift in Sources */,
+				E13AF4A829C21CA0008DB2F0 /* LoginPage.swift in Sources */,
+				E104310029ECBA8F00E60A04 /* BookingPage.swift in Sources */,
+				E13AF4AA29C21F86008DB2F0 /* LoginModel.swift in Sources */,
+				E10430F429ECAF0700E60A04 /* TicketDetailTopView.swift in Sources */,
+				E1C0A85229CC767D00258D82 /* User.swift in Sources */,
+				E10430F829ECAF5100E60A04 /* BlockView.swift in Sources */,
+				E1EFBD9829D25A2400576B6C /* Voyage.swift in Sources */,
+				E10430FC29ECAF8A00E60A04 /* LineShape.swift in Sources */,
+				E1CBA9DC2A05D20F00E3527E /* DetailsReservation.swift in Sources */,
+				E13AF4AE29C248D0008DB2F0 /* RegisterModel.swift in Sources */,
+				E1EFBD9A29D25B7400576B6C /* SeatFormation.swift in Sources */,
+				E16590EF29C322CA005F981D /* CodeVerifPage.swift in Sources */,
+				E17183DD29D399EF00FC625E /* LottieView.swift in Sources */,
+				E1EFBD9E29D25E2800576B6C /* Reservation.swift in Sources */,
+				E17183DB29D38E5800FC625E /* Shared.swift in Sources */,
+				E13AF4AC29C2480B008DB2F0 /* RegisterPage.swift in Sources */,
+				E16590F129C322DB005F981D /* NewPasswordPage.swift in Sources */,
+				E13AF49C29C21B60008DB2F0 /* GetStarted.swift in Sources */,
+				E17183E629D3A68600FC625E /* LottieNames.swift in Sources */,
+				E1EFBDA429D2604600576B6C /* SeatFormationController.swift in Sources */,
+				E1F2C11329D634BA00CBC5B2 /* TicketListPage.swift in Sources */,
+				E1BCAD2729E7BBAC00865A60 /* EditProfilePage.swift in Sources */,
+				E16FBF0529DE668500347EC0 /* ProfilePage.swift in Sources */,
+				E1D345842A080BB000C0FF89 /* ScannerPage.swift in Sources */,
+				E140955429F874AF00C61D3D /* LocationManager.swift in Sources */,
+				E10430F629ECAF2100E60A04 /* TicketDetailView.swift in Sources */,
+				E16590F929C33580005F981D /* Drawer.swift in Sources */,
+				E140955729F8AEC900C61D3D /* LocationSearchModel.swift in Sources */,
+				E13AF49F29C21BB7008DB2F0 /* Constants.swift in Sources */,
+				E16590ED29C322B2005F981D /* ForgetPage.swift in Sources */,
+				E100293929FA017C009DB48C /* PaymentModel.swift in Sources */,
+				E16590F329C323F1005F981D /* ForgetPasswordModel.swift in Sources */,
+				E10430FA29ECAF6C00E60A04 /* LREdgeCutShapeView.swift in Sources */,
+				E1EFBDA029D2601C00576B6C /* VehicleController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E13F3BC129C1EFFA0091D1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E13F3BC229C1EFFA0091D1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13F3BC429C1EFFA0091D1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8559B03EF8D54731033133 /* Pods-Easyway.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Easyway/Preview Content\"";
+				DEVELOPMENT_TEAM = FYQ6H7MNDA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Easyway/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esprit.Easyway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E13F3BC529C1EFFA0091D1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D6A56613005C9765B09B0C /* Pods-Easyway.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Easyway/Preview Content\"";
+				DEVELOPMENT_TEAM = FYQ6H7MNDA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Easyway/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esprit.Easyway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E13F3BAB29C1EFF90091D1A9 /* Build configuration list for PBXProject "Easyway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13F3BC129C1EFFA0091D1A9 /* Debug */,
+				E13F3BC229C1EFFA0091D1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13F3BC329C1EFFA0091D1A9 /* Build configuration list for PBXNativeTarget "Easyway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13F3BC429C1EFFA0091D1A9 /* Debug */,
+				E13F3BC529C1EFFA0091D1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1D345852A08102C00C0FF89 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1D345862A08102C00C0FF89 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1D345852A08102C00C0FF89 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E13F3BBE29C1EFFA0091D1A9 /* Easyway.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E13F3BBF29C1EFFA0091D1A9 /* Easyway.xcdatamodel */,
+			);
+			currentVersion = E13F3BBF29C1EFFA0091D1A9 /* Easyway.xcdatamodel */;
+			path = Easyway.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E13F3BA829C1EFF90091D1A9 /* Project object */;
+}
