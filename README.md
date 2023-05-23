@@ -8,7 +8,7 @@
 EasyWay is a comprehensive public transportation booking system, designed with a user-friendly interface and real-time navigation. Built for both iOS and Android platforms, this app makes your journey hassle-free by providing a one-stop solution for all your public transportation needs.
 
 
-<a href="https://appgallery.huawei.com/#/app/C107549527">
+<a href="[https://appgallery.huawei.com/#/app/C107549527](https://appgallery.huawei.com/app/C107549527)">
   <img src="https://github.com/RayenMajdoub/EasyWay/assets/109281682/f0558464-6993-40d5-9c42-f51918e96edf" height="50">
 </a>
 
